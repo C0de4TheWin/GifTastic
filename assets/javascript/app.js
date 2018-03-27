@@ -1,14 +1,19 @@
-//create the on click function for when a button is pressed
-$("button").on("click", function() {
+
     //create an array of movies
 var movies = ["Terminator 2", "Goodfellas", "The Dark Night", "Step Brothers"];
+var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
+    movies + "&api_key=Z2cyZ5palPTFMbQLQeF52yTe5T2FpnDi&limit=10";
 //this will assign data/attr to the buttons and bring in the info via Giphy API
+
+//create the on click function for when a button is pressed
+$("button").on("click", function() {
+
+
 function renderButtons() {
      
     var movies = $(this).attr("buttons");
     var data = $(this).attr("data-name");
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-    movie + "&api_key=Z2cyZ5palPTFMbQLQeF52yTe5T2FpnDi&limit=10";
+    
     }
 })
 
