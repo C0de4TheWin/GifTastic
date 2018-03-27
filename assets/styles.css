@@ -3,7 +3,8 @@ background-color: rgb(15, 184, 240);
 color: black;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 align-content: center;
-height: 
+height: 50px;
+width: 100px;
 
 
 }
@@ -27,5 +28,6 @@ body {
 .label {
 
     color: black;
+    
     
 }
